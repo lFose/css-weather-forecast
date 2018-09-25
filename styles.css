@@ -1,0 +1,98 @@
+*{
+	transition: all .1s ease-in;
+	box-sizing: border-box;
+}
+html,
+body{
+	height: 100%;
+	margin: 0 auto;
+	background: rgb(52, 153, 204);
+	border: 5px solid rgb(42, 129, 172);
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: white;
+}
+.header h1{
+	font-size: 16px;
+}
+.header,
+.footer {
+    display:block;
+    margin: 0 auto;
+    width: 80%;
+}
+.header h1 i{
+	opacity: 1;
+}
+ul{
+	list-style: none;
+	font-size: 0;
+	text-align: center;
+	padding: 0;
+	width: 80%;
+	margin: 0 auto;
+	border-left: 2px solid white;
+	border-top: 2px solid white;	
+}
+ul li{
+	display: inline-block;
+	font-size: 15px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    padding: 20px;
+}
+ul:hover li{
+	opacity: 0.6;
+}
+ul li:hover{
+	opacity: 1;
+}
+.blue{
+	background: rgb(52, 153, 204);
+}
+.turquoise{
+	background: rgb(51, 204, 204);
+}
+.purple{
+	background: rgb(153, 102, 153);
+}
+.red{
+	background: rgb(194, 71, 71);
+}
+.orange{
+	background: rgb(226, 103, 74);
+}
+.yellow{
+	background: rgb(255, 204, 102);
+}
+.salad{
+	background: rgb(153, 204, 153);
+}
+.emerald{
+	background: rgb(102, 153, 153);
+}
+.pink{
+	background: rgb(204, 102, 153);
+}
+.green{
+	background: rgb(51, 153, 102);
+}
+.violet{
+	background: rgb(102, 102, 153);
+}
+i{
+	font-size: 20px;
+	opacity: 0.7;
+}
+.degree{
+	opacity: 0.7;
+}
+.width-100{
+    width: 100%;
+}
+.width-50{
+	width: 50%;
+
+}
+.width-25{
+	width: 25%;
+}
